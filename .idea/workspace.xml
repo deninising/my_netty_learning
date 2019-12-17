@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7c20604-4f89-4ee3-ab6b-f795bd5db3b6" name="Default Changelist" comment="" />
+    <list default="true" id="d7c20604-4f89-4ee3-ab6b-f795bd5db3b6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dennis/netty/seconddemo/server/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dennis/netty/seconddemo/server/MyServer.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +72,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="All" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -87,7 +95,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="D:/GitRepository/spring-cloud-netflix-itoken" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -120,7 +128,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NewClient">
+  <component name="RunManager" selected="Application.MyServer">
+    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dennis.netty.seconddemo.server.MyServer" />
+      <module name="my_netty.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dennis.netty.seconddemo.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NewClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dennis.zerocopy.NewClient" />
       <module name="my_netty.main" />
@@ -140,19 +161,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dennis.zerocopy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NioClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dennis.nio.NioClient" />
-      <module name="my_netty.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dennis.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyServer" />
         <item itemvalue="Application.NewClient" />
         <item itemvalue="Application.NewServer" />
         <item itemvalue="Application.OldClient" />
         <item itemvalue="Application.OldServer" />
-        <item itemvalue="Application.NioClient" />
       </list>
     </recent_temporary>
   </component>
@@ -215,10 +223,51 @@
       <workItem from="1574501532091" duration="27746000" />
       <workItem from="1575792385067" duration="9728000" />
       <workItem from="1575982919888" duration="17074000" />
+      <workItem from="1576161605974" duration="9575000" />
+      <workItem from="1576331600027" duration="17949000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dennis/netty/seconddemo/server/MyServer.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/develop/gradle-4.10/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java</url>
+          <line>331</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/develop/gradle-4.10/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
+          <line>499</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/develop/gradle-4.10/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/channel/nio/AbstractNioChannel.java</url>
+          <line>386</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
