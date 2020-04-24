@@ -1,6 +1,5 @@
 package com.dennis.nio;
 
-import java.nio.Buffer;
 import java.nio.ByteBuffer;
 /**
  * ByteBuffer类型化的put与get方法
